@@ -6,7 +6,7 @@ namespace ComboSkills.Skills.Skill_Implementation
     {
         public SkillThree(double damage, string name) : base(damage, name) { }
 
-        protected override void DoThisAttack()
+        protected override void AttackAction()
         {
             Console.WriteLine($"Use (3){SkillName}: {attackMessage}");
         }

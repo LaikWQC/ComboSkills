@@ -35,7 +35,7 @@ namespace ComboSkills.Skills
 
         public override void DoAttack()
         {
-            currentSkill.DoThisAttack();
+            currentSkill.AttackAction();
             currentSkill = currentSkill.nextSkill;
         }
     }

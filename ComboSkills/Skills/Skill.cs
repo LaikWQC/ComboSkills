@@ -15,10 +15,10 @@
 
         public virtual void DoAttack()
         {
-            DoThisAttack();
+            AttackAction();
         }
 
-        protected abstract void DoThisAttack();
+        protected abstract void AttackAction();
 
         public override string ToString()
         {
